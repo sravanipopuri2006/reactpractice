@@ -1,0 +1,353 @@
+.header{
+    height: 118px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    border-top: 3px solid #8aba56;
+    padding-top: 10px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-box{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.875);
+    display: flex;
+    box-sizing: border-box;
+    padding: 130px;
+    justify-content: space-evenly
+}
+.card1{
+    background-color: white;
+    width: 310px;
+    height: 400px;
+
+}
+.cardhead{
+    
+    height: 100px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding-top: 30px;
+    
+}
+.cardhead p{
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;   
+}
+.cardbody{
+    height: 230px;
+}
+.cardbody p{
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    
+}
+.cardfooter{
+    height: 65px;
+    background-color: #8aba56;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 8%;
+}
+.secondbox{
+    align-items: center;
+    height: 600px;
+    display: flex;
+    
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.right{
+    height: 500px;
+    width: 430px;
+    
+}
+.right p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+
+}
+.secondcard{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.719);
+    box-sizing: border-box;
+    
+}
+.left{
+    height: 500px;
+    width: 470px;
+    
+
+}
+.secondcardbody{
+    height: 280px;
+}
+.secondcardfooter{
+    height: 140px;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.secondcardfooter .firstp{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 8px;
+}
+.secondcardfooter .second{
+    margin: 0;
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.733);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondcardfooter button{
+    height: 28px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: #8aba56;
+    margin-top: 10px;
+    border: 1px solid #8aba56;
+    justify-content: center;
+    margin-left: 130px;
+}
+.rect1{
+    height: 140px;
+    display: flex;
+    border-bottom:1px solid grey;
+
+    
+    
+
+}.left .heading{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+.content{
+    margin-left: 10px;
+    
+}
+.contentp{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+.small{
+    text-align: left;
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.small span{
+    color: #8aba56;
+}
+.medium{
+    font-size: 15px;
+    line-height: 5px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+.content button{
+    height: 28px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    color: #8aba56;
+    
+    border: 1px solid #8aba56;
+    justify-content: center;
+    
+
+}
+.rect2{
+    margin-top: 15px;
+    height: 140px;
+    display: flex;
+    border-bottom:1px solid grey;
+
+}
+.thirdbox{
+    height: 350px;
+    background-color: whitesmoke;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.thirdfirst{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.thirdsecond{
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0.75;
+
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 200px;
+
+}
+.div2{
+    width: 420px;
+    height: 130px;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.div3{
+    height: 140px;
+    width: 210px;
+    background-color: rgba(0, 0, 0, 0.677);
+   
+}
+.div4{
+    height: 140px;
+    width: 210px;
+    background-color: #f0ad4e;
+    box-sizing: border-box;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.904);
+    line-height: 4px;
+}
+.div4 button{
+    height: 30px;
+    width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.904);
+    font-size: 12px;
+    background-color: #f0ad4e;
+    color: white;
+    font-weight: 600;
+}
+.div5{
+    width: 420px;
+    height: 130px;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 25px;
+
+}
+.div6{
+    height: 140px;
+    width: 210px;
+    background-color: rgba(0, 0, 0, 0.648);
+
+}
+.div7{
+    height: 140px;
+    width: 210px;
+    background-color: #6fd2e5;
+    box-sizing: border-box;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.904);
+    line-height: 4px;
+
+}
+.div7 button{
+    height: 30px;
+    width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.904);
+    font-size: 12px;
+    background-color: #6fd2e5;
+    color: white;
+    font-weight: 600;
+}
+.fourth{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.825);
+    padding-top: 40px;
+    box-sizing: border-box;
+    
+}
+.fdiv1{
+    height: 260px;
+    width: 290px;
+}
+.foothead{
+    color: grey;
+    font-size: 15px;
+
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fdiv2{
+    height: 260px;
+    width: 200px;
+
+}
+.text{
+    font-size: 13px;
+    font-weight: lighter;
+    color: grey;
+}
+.text1{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #8aba56;
+
+}
+.fdiv3 button{
+    height: 30px;
+    width: 120px;
+    background-color: #8aba56;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.fdiv3 input{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border: none;
+
+}
+.footer{
+    height: 70px;
+    background-color: black;
+}
+.footer p{
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
